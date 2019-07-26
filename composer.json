@@ -1,0 +1,21 @@
+{
+  "name": "dovelet/filesystem",
+  "description": "php filesystem",
+  "authors": [
+    {
+      "name": "Ken"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "gaufrette/local-adapter": "^0.4.0",
+    "knplabs/gaufrette": "^0.8.3",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dovelet\\": "src/"
+    }
+  }
+}
