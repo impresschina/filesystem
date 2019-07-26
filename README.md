@@ -1,4 +1,4 @@
->调用方法
+使用方法
 --------
 ~~~
 include_once './vendor/autoload.php';
