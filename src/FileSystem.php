@@ -92,13 +92,12 @@ class FileSystem extends \Gaufrette\Filesystem
     }
 
     /**
-     * @param $path
-     * @return bool
+     * @return $this
      */
     public function del()
     {
         if (is_file($this->path))
-            return parent::delete($this->path);
-        return false;
+            parent::delete($this->path);
+        return $this;
     }
 }
